@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Make the page take up the full viewport height */
+  }
+  .Navbar {
+    height: 10vh;
+  }
+  
+  .Remaining {
+  height: 45vh;
+  overflow-y: scroll;
+  resize: both;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  }

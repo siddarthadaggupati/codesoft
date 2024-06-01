@@ -1,0 +1,95 @@
+
+body{
+   background-color: rgb(2, 11, 33);
+    color: white;
+}
+
+.wrap {
+    width: 480px;
+    margin-bottom: 10px;
+    color: white;
+    height: 6.5rem;
+}
+
+.text-typing {
+    margin-left: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    /*font-family: 'Arial';*/
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white; /* Cursor effect */
+    height: 7rem;
+    margin-bottom: 1px;
+    animation: typing 6s steps(23), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+.intro{
+    font-family: 'arial';
+    margin-left: 20px;
+}
+.intro p{
+    font-size: 1.5rem;
+}
+.texting{
+    width: 50%;
+}
+.skills {
+    margin-top: -3px;
+    width: 40%;
+    color: white;
+    height: 50%;
+}
+
+.skills h1 {
+    
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.skills li i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.progress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 1s;
+}
+footer{
+    background-color: blue;
+}
