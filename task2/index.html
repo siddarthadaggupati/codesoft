@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Portal</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">Exam Portal</a>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#features">Features</a>
+                <a href="#abouts">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Exam Portal</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio deleniti, placeat amet id molestiae similique. Non consequatur mollitia porro deserunt laboriosam esse? Optio quibusdam placeat soluta facilis temporibus ipsa eos.</p>
+                <a href="#" class="cta-btn">Get Started</a>
+            </div>
+        </section>
+        <section  id ='features' class="features">
+            <h2>Features</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ErFd1vXVBf8Gzqtfr5HhZdjJvbyL4ZLR3g&s" alt="Feature 1">
+                    <h3>Secure Exams</h3>
+                    <p>Our platform ensures the integrity of your exams with advanced security measures.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.shiksha.com/mediadata/images/articles/1591428914phpMABeQI.jpeg" alt="Feature 2">
+                    <h3>Instant Results</h3>
+                    <p>Get your exam results instantly after completion.</p>
+                </div>
+                <div class="card">
+                    <img src="https://www.digitalsilk.com/wp-content/uploads/2023/04/how-to-make-user-friendly-website.png" alt="Feature 3">
+                    <h3>User-Friendly Interface</h3>
+                    <p>Our user-friendly interface makes taking exams a breeze.</p>
+                </div>
+            </div>
+        </section>
+        <section  id = 'abouts' class="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, reprehenderit dolorum totam quaerat nobis eius ratione quasi fugiat dolor nemo unde voluptas nam reiciendis id suscipit tempore dignissimos voluptate placeat!
+            Fugiat, rem placeat voluptatum nisi praesentium saepe possimus aliquam repellendus quisquam cupiditate vel recusandae perspiciatis eligendi esse nam ex repudiandae inventore corporis provident unde veniam fugit maiores. A, quaerat aliquam.
+            Voluptate soluta dolor consectetur tempore debitis eveniet perferendis earum sunt ipsa laboriosam ab illum id, illo nulla commodi sint assumenda laborum unde veritatis quis. Reprehenderit quidem sapiente expedita voluptatibus quisquam.
+            Saepe labore sunt voluptatem incidunt vitae accusamus esse, possimus deserunt totam, veniam cum eum voluptatum est? Eius doloribus sed incidunt fuga dolorum quae, nobis ab dicta at sequi doloremque repudiandae.
+            Recusandae ad facere quisquam veritatis corporis qui, inventore minus rem reiciendis asperiores incidunt cumque possimus quas soluta deserunt perferendis laudantium, expedita tenetur ab ipsum sint? Error aliquam nesciunt porro tempora.
+            Excepturi praesentium velit ad? Modi, eaque sit! Reprehenderit necessitatibus expedita error veritatis quisquam harum distinctio iste dolore pariatur quaerat. Ad sint voluptatibus dolores, cupiditate maxime quod quas iste possimus et.
+            Accusantium molestiae quas, quisquam aut nihil adipisci perspiciatis officia similique itaque. Laborum, odit. Dolorum nulla, praesentium nobis ipsa animi repudiandae delectus provident nostrum deleniti labore voluptatem consequatur itaque odio voluptatum?
+            Eveniet delectus quas, non laboriosam ipsum quam assumenda dolor incidunt reprehenderit voluptatum repellat minima. Odio ea deserunt eum nihil praesentium mollitia hic facere! Commodi voluptas, nemo eius iusto corrupti pariatur?
+            Maxime perspiciatis magnam magni facilis veniam eos ut cum a at, voluptas aperiam neque omnis aliquam vitae, nesciunt adipisci perferendis veritatis ex repellat tempore voluptatum vero, deserunt quam? Reiciendis, iste?
+            Et laboriosam blanditiis quis animi omnis, non odio magnam harum consequatur placeat voluptates! Fugit excepturi itaque asperiores magnam, repellat, sequi sint cum dicta enim vitae earum quia? Labore, molestiae repellendus?</p>
+        </section>
+        <div id="contact" class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <br><br>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Exam Portal. All rights reserved.</p>
+    </footer>
+    <script>
+        // Smooth scrolling logic
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
