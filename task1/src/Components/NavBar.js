@@ -9,7 +9,7 @@ const tabStyle = {
 };
 
 function downloadResume() {
-    const resumeUrl = 'https://codesoft-one.vercel.app/resume.pdf';
+    const resumeUrl = 'https://siddartha-daggupati.vercel.app/resume.pdf';
     const anchor = document.createElement('a');
     anchor.href = resumeUrl;
     anchor.download = 'resume.pdf';
